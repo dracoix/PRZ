@@ -962,6 +962,7 @@ is divided into following sections:
     <target name="-pre-jar">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
+        <javadoc sourcepath="${src.dir}" destdir="apidocs"/>
     </target>
     <target depends="init" if="do.archive" name="-do-jar-create-manifest" unless="manifest.available">
         <tempfile deleteonexit="true" destdir="${build.dir}" property="tmp.manifest.file"/>
