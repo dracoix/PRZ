@@ -1,1 +1,7 @@
+SevenZip
+SevenZip.Compression.LZ
+SevenZip.Compression.LZMA
+SevenZip.Compression.RangeCoder
 prz
+prz.core
+prz.util
